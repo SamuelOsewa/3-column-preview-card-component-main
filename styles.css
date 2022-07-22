@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.card {
+    width: 50%;
+    max-width: 240px;
+    height: 400px;
+    padding: 30px 20px;
+}
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%); 
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card img {
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+.card p {
+    margin-bottom: 2rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", monospace;
+    font-weight: 200;
+}
+
+.card h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 24px;
+}
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 15px 24px;
+    border-radius: 50px;
+    margin-top: 4rem;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sedan .button {
+    color: hsl(31, 77%, 52%);
+}
+
+#suv .button {
+    color:hsl(184, 100%, 22%);
+}
+
+#luxury .button {
+    color: hsl(179, 100%, 13%);
+}
+
+#sedan .button:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+#suv .button:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+#luxury .button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
