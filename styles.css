@@ -53,6 +53,12 @@
     font-weight: 200;
 }
 
+.card h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 24px;
+}
+
 .card h2 {
     color: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
