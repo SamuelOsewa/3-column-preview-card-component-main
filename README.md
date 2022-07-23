@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/SamuelOsewa/3-column-preview-card-component-main)
+- Live Site URL: [Netlify](https://moonlit-granita-8b4991.netlify.app/)
 
 ## My process
 
